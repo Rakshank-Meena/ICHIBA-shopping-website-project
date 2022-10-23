@@ -1,0 +1,223 @@
+*{
+  margin:none;
+  padding: none;
+  box-sizing: border-box;
+}
+.navbar{
+  height:15vh;
+  background-color: #1d3557;
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
+  position: fixed;
+  width: 100vw;
+  z-index: 2;
+}
+.mainPage{
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+}
+.landingpage{
+  height: 110vh;
+  background-image: url('../public/kiyomizudera.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ichiba{
+  height:110vh;
+  width: 98.7vw;
+  position: absolute;
+  top: 0vh;
+  background-color:rgba(55, 73, 123, 0.541);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10vh;
+  flex-wrap: wrap;
+  overflow: hidden;
+  color: #a8dadc;
+  font-family: 'Lora', serif;
+  text-shadow: 0px 0px 1vh #e63946;
+  
+}
+.electronics{
+  height: 21.25vh;
+  background-image: url(../public/electronics.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.men{
+  height: 21.25vh;
+  background-image: url(../public/mensfashion.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+}
+
+.women{
+  height: 21.25vh;
+  background-image: url(../public/womensfashion.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row-reverse;
+
+}
+.jewelery{
+  height: 21.25vh;
+  background-image: url(../public/jewelery.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+
+}
+.header{
+  color: rgb(200, 220, 220);
+  margin-left: 40vw;
+  font-size: 8vh;
+  font-family: 'Noto Serif JP', 'serif';
+}
+.body{
+  background-color:#457b9d ;
+  margin-left: 17vw;
+}
+.container{
+  display: grid;
+  grid-template-columns:repeat(6,1fr);
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  justify-content: center;
+  padding-top: 15vh;
+  padding-bottom: 5vw;
+  box-sizing: border-box;
+}
+.btn{
+/* margin-top: 7vh; */
+font-size: x-small;
+display: inline;
+margin-right: none;
+margin-left: auto;
+width: fit-content;
+background-color: #1d3557;
+}
+.btn:hover{
+background-color:#0719337f ;
+color: #f1faee;
+}
+.btn:active{
+  background-color: #000000;
+}
+.tag{
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 5vh;
+  font-weight: bold;
+  color: rgb(7, 27, 47);
+}
+.btn{
+  background-color:#1d3557;
+  color: #f1faee;
+}
+.cartitems{
+  width:50vw;
+  display: flex;
+  flex-flow: row;
+  height:'17vh';
+  margin-top: 4vh;
+  background-color: #a8dadc;
+  display: flex;
+  flex-flow: row;
+  border-radius: 3vh;
+  padding-top: 1vh;
+  padding-right: 1vh;
+  font-size: large;
+}
+.card-title{
+  color: #1d3557;
+  margin-top: 1vh;
+  font-weight: 800;
+  font-size: 2.5vh;
+  font-family: 'Bitter', serif;
+  text-shadow: 0vh 0vh 1vh rgba(143, 143, 94, 0.678);
+}
+.home-button{
+  margin-left: 93%;
+}
+.side-panel{
+  display: flex;
+  flex-flow: column;
+  width: 17vw;
+  height: 100vh;
+  padding-top: 15vh;
+  background-color:#a8dadc;
+  min-height: 100vh;
+  position: fixed;
+  font-family: 'Bitter', serif;
+  
+}
+.categ-container{
+  display: grid;
+  grid-template-columns:repeat(4,1fr);
+  width: 81.8vw;
+  min-height: 100vh;
+  height: auto;
+  justify-content: center;
+  padding-top: 15vh;
+  padding-bottom: 5vw;
+  box-sizing: border-box;
+  padding-left: 1vw;
+ 
+}
+.cart{
+  min-height: 100vh;
+  background-color: #f1faee;
+  padding-top: 17vh;
+  padding-left: 19vw;
+  font-size: x-large;
+  font-family: 'Montserrat', sans-serif;
+  color: #1d3557;
+  font-weight: bolder;
+
+}
+.subsection{
+  display: flex;
+  flex-flow: row;
+}
+.cartlist{
+  display: flex;
+  flex-flow: column;
+}
+.total{
+  margin-left: 52%;
+  border-radius: 3vh;
+  border:0.3vh solid black;
+  height: 70vh;
+  margin-right: 1vw;
+  font-size: medium;
+  width:28vw;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  font-family: "bitter","serif";
+  color: #0d131bcc;
+  padding-top: 3vh;
+  position: fixed;
+}
